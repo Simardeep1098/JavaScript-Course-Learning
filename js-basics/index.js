@@ -109,3 +109,49 @@
 // }
 
 
+// Exercise::::::::::: count the number fo truthy values
+
+// const array = [0, null, undefined, '' , 2, 3,5];
+// console.log(countTruthy(array));
+// function countTruthy(array) {
+//     let count = 0;
+//         for (let value of array)
+//             if (value)
+//                 count++;
+//         return count;
+// }
+
+
+//Exercise::::::::: Show properties
+
+// const movie = {
+//     title: 'a',
+//     releaseYear: 2018,
+//     rating: 4.5,
+//     director: 'b'
+// };
+// showProperties(movie);
+
+// function showProperties(obj) {
+//     for (let key in obj)
+//         if (typeof obj[key] === 'string')
+//             console.log(key, obj[key]);
+// }
+
+
+// //Exercise::::::::: Sum fo multiples of 3 and 5
+// console.log(sum(10));
+
+// function sum(limit){
+//     let sum = 0;
+
+//     for (let i = 0; i <= limit; i++)
+//         if (i % 3 === 0 || i % 5 === 0)
+//             sum += i;
+
+//     return sum;
+
+// } 
+          
+
+
