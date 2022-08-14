@@ -150,8 +150,56 @@
 //             sum += i;
 
 //     return sum;
-
 // } 
           
 
+// Exercise:::::::::: average of arrays, calculating grade
 
+// // console.log(calculateGrade(marks));
+
+// function calculateGrade(array) {
+//     let sum = 0;
+//     for (let value of array)
+//         sum += value;
+//     return average = sum / array.length;
+// }
+
+// function calculateGrade(marks) {
+//     const average = calculateAverage(marks);
+//     if (average < 60) return 'F';
+//     if (average < 70) return 'D';
+//     if (average < 80) return 'C';
+//     if (average < 90) return 'B';
+//     return 'A';
+// }
+
+// //Exercise:::::::::::: show stars
+
+// showStars(5);
+
+// function showStars(rows) {
+//     for (let row = 1; row <= rows; row++){
+//         let pattern = '';
+//         for (let i = 1; i < row; i++)
+//             pattern += '*';
+//         console.log(pattern);
+//     }
+// }
+
+//Exercise::::::::::::::: Show Prime Numbers Upto n
+
+showPrimes(15);
+
+function showPrimes(limit) {
+    for ( let number = 2; number <= limit; number++) 
+            if (isPrime(number)) console.log(number);
+        
+}
+    
+function isPrime(number) {
+    for (let factor = 2; factor < number; factor++)
+        if (number % factor === 0) 
+            return false;
+    
+    return true;
+}
